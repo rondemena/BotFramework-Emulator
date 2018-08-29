@@ -61,7 +61,8 @@ gulp.task('clean', function () {
 gulp.task('copy-extension-stubs', function () {
   return gulp
     .src('./src/extensions/**/*')
-    .pipe(gulp.dest('./app/extensions'));
+    .pipe(gulp.dest('./app/extensions'))
+    .on('error', errorHandler);
 });
 
 //============================================================================
