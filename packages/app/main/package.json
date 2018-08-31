@@ -1,5 +1,5 @@
 {
-  "name": "@bfemulator/main",
+  "name": "@bfemulator/botframework-emulator",
   "version": "4.0.15-alpha",
   "private": true,
   "description": "Development tool for the Microsoft Bot Framework. Allows developers to test and debug bots on localhost.",
