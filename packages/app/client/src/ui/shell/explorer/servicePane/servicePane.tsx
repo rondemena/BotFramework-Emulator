@@ -69,13 +69,13 @@ export abstract class ServicePane<T extends ServicePaneProps, S extends ServiceP
         <button aria-label="Sort"
           onKeyPress={ this.onControlKeyPress}
           onClick={ this.onSortClick }
-          className={ styles.sortIconButton }>
+          className={ `${styles.sortIconButton} ${styles.serviceIcon}` }>
           ⮁
         </button>
         <button aria-label="Add"
           onKeyPress={ this.onControlKeyPress}
           onClick={ this.onAddIconClick }
-          className={ styles.addIconButton }>
+          className={ `${styles.addIconButton} ${styles.serviceIcon}` }>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
             <g>
               <path d="M0 10L10 10 10 0 15 0 15 10 25 10 25 15 15 15 15 25 10 25 10 15 0 15"/>
